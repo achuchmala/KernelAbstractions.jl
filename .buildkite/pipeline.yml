@@ -2,10 +2,10 @@
 #   SECRET_CODECOV_TOKEN: "XwlijFm5NXx0pdOhwX0v/ZWaMNwUxoQ9SB4ih47ccaBsIoKBIkZ9m6C5lr05nG+/K6/mYIZYnltRKiTKjKNtgdpGpOBXFEPDUz14i639RzDelyDpCC28Ec3bGpzRm8cbnvU3Kll+aGX/oAm7xcafR+Z411vmoLG3WveAFOdRmczGuoxGXwW1DKo1YYwRdGm+l2Gj/Bihb6n2EYW4qOnlutoWkk4BEGGlxDI2RaU4z2JEddf6RzjAlLF6B1svWRf8FxeZ0kBK+887Ng+872MLIzRe6tw+AAuw6DD8zBqeJwlKvUu6U4fRCEjwB6Bv4C5hZgz//dbwXMB4BB3T5dyyZA=="
 
 steps:
-  - label: "Julia 1.5"
+  - label: "Julia 1.4"
     plugins:
       - maleadt/julia:
-          version: 1.5
+          version: 1.4
       - maleadt/julia-test: ~
       # - maleadt/julia-coverage:
       #     codecov: true
